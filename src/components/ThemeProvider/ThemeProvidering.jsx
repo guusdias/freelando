@@ -24,7 +24,12 @@ const theme = {
             a: '',
             b: '',
         }
-    }
+    },
+     spacing: {
+        s: '16px',
+        l: '32px',
+    },
+    fontFamily: "'Montserrat', sans-serif"
 }
 
 export const ThemeProvidering = ({children}) =>{
