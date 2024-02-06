@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import { Styles } from "./components/GlobalStyles/Styles";
+import { Card } from "./components/GlobalStyles/Card/Card";
+import { ThemeProvidering } from "./components/ThemeProvider/ThemeProvidering";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <ThemeProvidering>
+        <Styles />
+        <Card>
+          <h1>freelando</h1>
+        </Card>
+      </ThemeProvidering>
     </div>
   );
 }
