@@ -28,6 +28,7 @@ const theme = {
      spacing: {
         s: '16px',
         l: '32px',
+        xs: '8px'
     },
     fontFamily: "'Montserrat', sans-serif"
 }
